@@ -12,6 +12,7 @@
   <script type="text/javascript" src="js/slick.min.js"></script>
   <script type="text/javascript" src="js/slider.js"></script>
   <script type="text/javascript" src="js/sticky-header.js"></script>
+  <script type="text/javascript" src="js/scrollToLink.js"></script>
   
 </head>
 <body>
@@ -34,12 +35,11 @@
               <span class="burger-menu__lines">
                 <div class="burger-menu__nav">
                       <a href="#" class="burger__link" data-scroll="#intro">Home</a>
-                      <a href="#" class="burger__link" data-scroll="#about__us">About</a>
-                      <a href="#" class="burger__link" data-scroll="#servicing">Servicing</a>
-                      <a href="#" class="burger__link" data-scroll="#portfolio">Portfolio</a>
-                      <a href="#" class="burger__link" data-scroll="#blog">Blog</a>
-                      <a href="#" class="burger__link" data-scroll="#contact">Contact Us</a>
-                      <a href="#" class="burger__link" data-scroll="#contact">Sign Up</a>
+                      <a href="#" class="burger__link" data-scroll="#service">Service</a>
+                      <a href="#" class="burger__link" data-scroll="#extension">Extension</a>
+                      <a href="#" class="burger__link" data-scroll="#pricing">Pricing</a>
+                      <a href="login.html" class="burger__link">Help</a>
+                      <a href="login.html" class="burger__link" data-scroll="#contact">Sign Up</a>
                 </div>
   
                 <div class="burger-menu__overlay"></div>
@@ -79,7 +79,7 @@
   </div> <!-- /.intro -->
 
   <!-- EASY & USEFUL -->
-  <div class="easy&useful">
+  <div class="easy&useful" >
     <div class="container">
       <div class="section__header">
         <div class="section__title">Easy & Useful</div>
@@ -176,7 +176,7 @@
   </div>
 
   <!-- SERVICE -->
-  <div class="service">
+  <div class="service" id="service">
     <div class="container">
       <div class="section__header">
         <div class="section__title">Services</div>
@@ -322,7 +322,7 @@
   </div> <!-- /.service -->
 
   <!-- REVIEWS -->
-  <div class="reviews">
+  <div class="reviews" id="extension">
     <div class="container">
       <div class="reviews__wrapper">
         <div class="reviews__text">
@@ -481,7 +481,7 @@
   </div> <!-- /.container -->
 </div> <!-- /.team -->
 
-  <div class="contacts">
+  <div class="contacts" id="pricing">
     <div class="container">
       <div class="section__header">
         <div class="section__title">Contact Us</div>

@@ -331,6 +331,7 @@ a {
   height: 830px;
   background: url('https://i.yapx.ru/KVrUr.jpg') center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   width: 100%;
 }
 
@@ -683,6 +684,7 @@ a {
   height: 600px;
   background: url('https://i.yapx.ru/KVrU6.jpg') center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .reviews__wrapper {
